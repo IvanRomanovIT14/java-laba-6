@@ -109,7 +109,7 @@
 - `@Default(Boolean.class)` - на поле field3
 
 **Тестирование:**
-```
+
 Класс DefaultDemo имеет тип по умолчанию: java.lang.String
 
 Поле field1 имеет тип по умолчанию: java.lang.Integer
@@ -117,7 +117,7 @@
 Поле field2 имеет тип по умолчанию: java.lang.Double
 
 Поле field3 имеет тип по умолчанию: java.lang.Boolean
-```
+
 
 ---
 
@@ -164,11 +164,11 @@
 - `@ToString(value = ToString.Mode.NO)` - на поле excludedField
 
 **Тестирование:**
-```
+
 Строковое представление: ToStringDemo{name=TestObject, value=123, includedField=Included}
 
 Поле excludedField с @ru.Romanov.ToString.ToString(Mode.NO) исключено из вывода
-```
+
 
 ---
 
@@ -211,7 +211,7 @@
 - `@Validate({String.class, Integer.class, Double.class, Boolean.class})` - на классе
 
 **Тестирование:**
-```
+
 Классы для проверки в ValidateDemo:
 
   - java.lang.String
@@ -221,7 +221,7 @@
   - java.lang.Double
 
   - java.lang.Boolean
-```
+
 
 ---
 
@@ -262,13 +262,13 @@
 - `@Two(first = "Пример строки", second = 42)` - на классе
 
 **Тестирование:**
-```
+
 Аннотация @Two:
 
   first: Пример строки
 
   second: 42
-```
+
 
 ---
 
@@ -318,7 +318,7 @@
 - `@Cache()` - на вложенном классе (пустой массив)
 
 **Тестирование:**
-```
+
 Кешируемые области для CacheDemo:
 
   - users
@@ -330,7 +330,7 @@
   - settings
 
   - cache
-```
+
 
 ---
 
@@ -351,7 +351,7 @@ JUnit тесты для аннотации @Default
 - `defaultClassesProvider()` - поставщик данных для параметризованного теста, возвращает поток аргументов для тестирования
 
 **Тестирование:**
-```
+
 Класс DefaultDemo имеет тип по умолчанию: java.lang.String
 
 Поле field1 имеет тип по умолчанию: java.lang.Integer
@@ -359,7 +359,7 @@ JUnit тесты для аннотации @Default
 Поле field2 имеет тип по умолчанию: java.lang.Double
 
 Поле field3 имеет тип по умолчанию: java.lang.Boolean
-```
+
 
 ---
 
@@ -382,7 +382,7 @@ JUnit тесты для аннотации @Cache
 - `testSingleCacheArea()` - дополнительный тест для одной области кеширования
 
 **Тестирование:**
-```
+
 Кешируемые области для CacheDemo:
 
   - users
@@ -394,7 +394,7 @@ JUnit тесты для аннотации @Cache
   - settings
 
   - cache
-```
+
 
 ---
 
